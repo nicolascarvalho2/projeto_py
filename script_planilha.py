@@ -129,6 +129,7 @@ for linha in sheet_produtos.iter_rows(min_row=2):
     pyautogui.click(171,888,duration=1)
     #Botao confirmação inclusão
     pyautogui.click(654,190,duration=1)
+    #Confirmação 2
+    pyautogui.click(648,186,duration=1)
     #Iniciar cadastro novamente
     pyautogui.click(481,645,duration=1)
-    
